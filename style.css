@@ -64,7 +64,7 @@ body {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23e74c3c" width="1200" height="800"/><text x="50%" y="50%" font-size="48" fill="white" text-anchor="middle" dy=".3em">Hero Background</text></svg>');
+                url('data:imagesbanner.jpg.png,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23e74c3c" width="1200" height="800"/><text x="50%" y="50%" font-size="48" fill="white" text-anchor="middle" dy=".3em">Hero Background</text></svg>');
     background-size: cover;
     background-position: center;
     display: flex;
