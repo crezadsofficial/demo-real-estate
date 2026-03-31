@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreya Developers - Find Your Dream Property</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Shreya Developers</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#properties" class="nav-link">Properties</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Find Your Dream Property with Shreya Developers</h1>
+            <p>Discover premium properties crafted with excellence and modern living in mind</p>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section id="properties" class="properties">
+        <div class="container">
+            <h2 class="section-title">Featured Properties</h2>
+            <div class="properties-grid">
+                <!-- Property 1 -->
+                <div class="property-card" data-modal="modal1">
+                    <div class="property-image">
+                        <img src="images/property1.jpg" alt="Luxury Apartment">
+                    </div>
+                    <div class="property-content">
+                        <h3>Luxury 2BHK Apartment</h3>
+                        <div class="price">₹65 Lakhs</div>
+                        <p>Modern 2BHK apartment with premium amenities in prime location.</p>
+                        <div class="property-buttons">
+                            <button class="btn btn-primary view-more">View More</button>
+                            <a href="https://wa.me/9923873950?text=I am interested in this property from Shreya Developers - Luxury 2BHK Apartment ₹65 Lakhs" class="btn btn-whatsapp" target="_blank">Contact on WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 2 -->
+                <div class="property-card" data-modal="modal2">
+                    <div class="property-image">
+                        <img src="images/property2.jpg" alt="Villa">
+                    </div>
+                    <div class="property-content">
+                        <h3>Spacious 3BHK Villa</h3>
+                        <div class="price">₹1.25 Cr</div>
+                        <p>Luxurious villa with private garden and modern facilities.</p>
+                        <div class="property-buttons">
+                            <button class="btn btn-primary view-more">View More</button>
+                            <a href="https://wa.me/9923873950?text=I am interested in this property from Shreya Developers - Spacious 3BHK Villa ₹1.25 Cr" class="btn btn-whatsapp" target="_blank">Contact on WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 3 -->
+                <div class="property-card" data-modal="modal3">
+                    <div class="property-image">
+                        <img src="images/property3.jpg" alt="Penthouse">
+                    </div>
+                    <div class="property-content">
+                        <h3>Exclusive Penthouse</h3>
+                        <div class="price">₹2.10 Cr</div>
+                        <p>Ultra-luxury penthouse with panoramic city views and rooftop terrace.</p>
+                        <div class="property-buttons">
+                            <button class="btn btn-primary view-more">View More</button>
+                            <a href="https://wa.me/9923873950?text=I am interested in this property from Shreya Developers - Exclusive Penthouse ₹2.10 Cr" class="btn btn-whatsapp" target="_blank">Contact on WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Shreya Developers</h2>
+            <p class="about-text">
+                Shreya Developers is a trusted name in real estate, committed to delivering exceptional properties 
+                that blend modern design, quality construction, and sustainable living. With years of experience, 
+                we specialize in creating dream homes and investment opportunities across prime locations.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p>+91 99238 73950</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>info@shreyadevelopers.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Button (Fixed) -->
+    <a href="#contact" class="contact-btn" id="contactBtn">Contact Us</a>
+
+    <!-- Property Modals -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-image">
+                <img src="images/property1.jpg" alt="Luxury Apartment">
+            </div>
+            <div class="modal-details">
+                <h2>Luxury 2BHK Apartment</h2>
+                <div class="modal-price">₹65 Lakhs</div>
+                <p class="modal-description">Experience luxury living in this beautifully designed 2BHK apartment featuring modern interiors, spacious layout, and world-class amenities. Perfect for families seeking comfort and style.</p>
+                <div class="modal-location">📍 Andheri West, Mumbai</div>
+                <div class="modal-features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>✓ 2 Bedrooms, 2 Bathrooms</li>
+                        <li>✓ 1100 sq.ft. carpet area</li>
+                        <li>✓ Covered parking</li>
+                        <li>✓ Balcony with garden view</li>
+                        <li>✓ Gym, pool, clubhouse</li>
+                        <li>✓ 24/7 security</li>
+                    </ul>
+                </div>
+                <div class="modal-actions">
+                    <a href="https://wa.me/9923873950?text=I am interested in Luxury 2BHK Apartment from Shreya Developers" class="btn btn-whatsapp" target="_blank">Contact on WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-image">
+                <img src="images/property2.jpg" alt="Villa">
+            </div>
+            <div class="modal-details">
+                <h2>Spacious 3BHK Villa</h2>
+                <div class="modal-price">₹1.25 Cr</div>
+                <p class="modal-description">Live in luxury with this spacious 3BHK villa offering private garden space, modern architecture, and premium finishes throughout. Ideal for those who value privacy and elegance.</p>
+                <div class="modal-location">📍 Powai, Mumbai</div>
+                <div class="modal-features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>✓ 3 Bedrooms, 3 Bathrooms</li>
+                        <li>✓ 2000 sq.ft. built-up area</li>
+                        <li>✓ Private garden & terrace</li>
+                        <li>✓ 2 Covered parking</li>
+                        <li>✓ Modular kitchen</li>
+                        <li>✓ Home automation</li>
+                    </ul>
+                </div>
+                <div class="modal-actions">
+                    <a href="https://wa.me/9923873950?text=I am interested in Spacious 3BHK Villa from Shreya Developers" class="btn btn-whatsapp" target="_blank">Contact on WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-image">
+                <img src="images/property3.jpg" alt="Penthouse">
+            </div>
+            <div class="modal-details">
+                <h2>Exclusive Penthouse</h2>
+                <div class="modal-price">₹2.10 Cr</div>
+                <p class="modal-description">The ultimate in luxury living - this exclusive penthouse offers breathtaking city views, expansive rooftop terrace, and designer interiors crafted for the elite.</p>
+                <div class="modal-location">📍 Bandra Kurla Complex, Mumbai</div>
+                <div class="modal-features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>✓ 4 Bedrooms, 4 Bathrooms</li>
+                        <li>✓ 3500 sq.ft. carpet area</li>
+                        <li>✓ Rooftop terrace & jacuzzi</li>
+                        <li>✓ 3 Covered parking</li>
+                        <li>✓ Private elevator</li>
+                        <li>✓ Smart home system</li>
+                    </ul>
+                </div>
+                <div class="modal-actions">
+                    <a href="https://wa.me/9923873950?text=I am interested in Exclusive Penthouse from Shreya Developers" class="btn btn-whatsapp" target="_blank">Contact on WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
